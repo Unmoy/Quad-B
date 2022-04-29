@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.booking_input {
+  font-family: "Poppins", sans-serif;
+  margin: 30px 50px;
+}
+.movie_info {
+  /* display: flex; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #feac01;
+  margin: 20px 50px;
+}
+
+.Modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: #000;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.booking_btn {
+  cursor: pointer;
+  background-color: #feac01;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 25px;
+  margin: 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in-out;
+}
